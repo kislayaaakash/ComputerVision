@@ -4,7 +4,7 @@ img = cv2.imread('C:/Users/kisaakas/Downloads/Computer-Vision-with-Python/Comput
 
 while True:
     cv2.imshow('puppy',img)
-    if cv2.waitKey(1) & 0xFF == 27: # use 
+    if cv2.waitKey(1) & 0xFF == 27: # use 0xFF == 27 for execution of esc key to close the picture
             break
             
 cv2.destroyAllWindows()            
